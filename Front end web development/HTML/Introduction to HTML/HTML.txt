@@ -1,0 +1,4 @@
+What is HTML?
+HTML stands for Hyper Text Markup Language.
+It is a standard markup language used to create web pages.
+In other words, it helps us structure and organize the content of our websites so that it can be displayed correctly in a browser.
