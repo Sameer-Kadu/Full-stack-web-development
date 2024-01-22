@@ -1,0 +1,28 @@
+lets see how internat works
+what is internat? --> internat is nothing but a connection between server and client.
+if i have to search for the google.com then first i have to send request to my ISP (internat Service Provider) then ISP will sent this request to the DNS (Domain Name System) and now the
+DNS will search for the your requested search and send back the IP address of the request you made and now you can directly connect to the server of the google.com and make interaction.
+it is simple as a sending post by a postoffice.
+
+Process:
+    Client (you) <---> ISP <---> DNS  
+      /|\
+       |       
+       |
+      \|/        
+    Server
+
+        Client send request to ISP
+        ISP sends the request to DNS
+        DNS gives IP address of Server back to ISP
+        ISP gives Ip address of server back to client
+        Client connects with the server using this ip address
+
+connection:
+connection between client to ISP or ISP to DNS or DNS to Server or client to server can be wired connection or wireless connection.
+
+IP address: 
+It is an identifier for every device which is connected to the internet. Each computer on the Internet has its own unique IP address, just like each person in the world has a passport
+number that identifies them. The Internet uses these numbers to communicate with your PC.
+
+now client can access data available on server.
