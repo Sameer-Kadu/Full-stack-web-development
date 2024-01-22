@@ -1,0 +1,9 @@
+let see how website works.
+website initially made of HTML, CSS, JavaScript those are the three main component of the website
+HTML is used to create structure and content of web page
+CSS is used for designing and styling of web pages
+JavaScript is used for interactivity on websites
+
+let see with the example of house, if i going to build a house the very first thing i need is bricks which work as a HTML for my house then after the construction complete i am going to
+color the house which work as a CSS for my house after coloring finally i will furnish my house with installing electricity, furniture and etc which work as a JavaScript for my house.
+
