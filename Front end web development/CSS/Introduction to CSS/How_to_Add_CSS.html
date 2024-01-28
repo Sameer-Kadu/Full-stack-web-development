@@ -1,0 +1,55 @@
+<!-- 
+    ---How to add css in html---
+
+    total three type of adding
+    1)inline
+    2)internal
+    3)external
+
+    1)inline:
+    -add style attribute directly into the element like <p style="color:red;">Hello World!</p>
+    2)Internal:
+    -Add a <style> tag within the head section of HTML document.
+        Inside this tag, we can write CSS code as follows:
+        Example :
+        <head>
+            <title>My Web Page</title>
+            <style>
+                body {background-color: lightblue;}
+                h1 {color: navy;}
+                </style>
+                Here, all elements under the "body" will have background color and text color specified by the above rules.
+                In this example, all text on the page will be displayed in blue and the background color of the whole webpage is set to light blue.
+                In internal CSS, you can use class or id to apply styles on multiple elements at once.
+    3)External:
+    -Link an external CSS file with the help of <link> tag placed inside the <head> tag of HTML page.
+        Syntax :
+        <link rel="stylesheet" href="path/filename.css">
+
+ -->
+
+ <!-- Example -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <link rel="stylesheet" href="./How_to_Add_CSS1.css">   <!-- External CSS -->
+      <!-- internal CSS -->
+      <style> 
+       body   
+       {
+            background-color: black;
+        }
+        h1
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+     <h1 style="color: red;">my webpage</h1> <!-- inline css -->
+</body>
+</html>
