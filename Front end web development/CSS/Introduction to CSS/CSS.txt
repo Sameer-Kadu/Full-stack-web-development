@@ -1,0 +1,5 @@
+-CSS:
+CSS stand for Cascaded Style Sheet
+Cascading in CSS means that styles are applied based on the hierarchy of HTML elements. The browser reads the CSS from top to bottom and applies the style properties as it encounters them while rendering
+It is a style sheet language used for describing the look and formatting of a document written in HTML. CSS allows you to control the layout of multiple web pages all at once.
+
