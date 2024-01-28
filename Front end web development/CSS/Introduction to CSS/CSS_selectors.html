@@ -1,0 +1,44 @@
+<!-- 
+    ---Css selectors---
+    1. id selector: #id_name
+    2. class selector: .class_name
+    3. attribute selector [attr=value]: h1[draggable]
+    4. element selector: h1
+    5. universal selector: *{ }
+    - [title="Hello"] selects all elements with a title of "Hello"
+    - [lang|="en"] selects all elements whose lang attribute starts with 'en' (e.g., en, en-US)
+    - :first-child selects the first child element within its parent
+    - ::before and ::after allow you to insert content before or after an element’s content
+
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my webpage</title>
+    <style>
+        #main{
+            color: blue;
+        }
+        .ss{
+            color: red;
+        }
+        h1[draggable]{
+            color: violet;
+        }
+        h1{
+           font-size: large;
+        }
+
+    </style>
+ </head>
+ <body>
+    <h1 id="main">ID SELECTOR</h1>
+    <h1 class="ss">CLASS SELECTOR</h1>
+    <h1 draggable="true">ATTRIBUTE SELECTOR</h1>
+    <h1>ELEMENT SELECTOR</h1>
+ </body>
+ </html>
