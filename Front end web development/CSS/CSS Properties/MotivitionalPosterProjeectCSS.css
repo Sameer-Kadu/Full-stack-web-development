@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+div{
+    width: 1000px;
+    margin-left: 25%;
+    margin-top: 17vh;
+    background-color: black;
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+    border: 2px solid white;
+}
+h1
+{
+    color: white;
+    font-family: 'Sixtyfour', sans-serif;
+}
+p{
+    color: white;
+}
