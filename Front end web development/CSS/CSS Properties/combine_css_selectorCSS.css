@@ -1,0 +1,15 @@
+h1,h2{
+    color: purple;
+}
+div > p{
+    color: red;
+}
+.box li{
+    color: green;
+}
+p.non{
+    color: brown;
+}
+div li.red{
+    color:yellow;
+}
