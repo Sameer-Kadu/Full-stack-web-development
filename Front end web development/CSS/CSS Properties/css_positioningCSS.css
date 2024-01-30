@@ -1,0 +1,23 @@
+.mai{
+    margin: 0 auto;
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+   
+}
+div > div{
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    top: 10px;
+}
+
+.z{
+    background-color: brown;
+    height: 700px;
+    width: 700px;
+    position: fixed;
+    top: 10px;
+    z-index: -1;
+    border-radius: 50%;
+}
