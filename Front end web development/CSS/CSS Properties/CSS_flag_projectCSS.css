@@ -1,0 +1,64 @@
+
+.flag{
+    margin: -6px;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+}
+.top{
+    position: relative;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+}
+.middle{
+    position: relative;
+    height: 200px;
+    background-color: darkblue;
+    
+}
+.middleCircle{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 25px;
+    font-size: 55px;
+}
+.bottom{
+    background-color: red;
+    height: 100px;
+}
+.rod{
+   
+    height: 83vh;
+    width: 25px;
+    background-color: black;
+}
+.stage1{
+    border-radius: 5%;
+    margin-left: -10px;
+    height: 50px;
+    width: 85px;
+    background-color:   gray;
+}
+.stage2{
+    border-radius: 5%;
+    margin-left: -10px;
+    height: 50px;
+    width: 110px;
+    background-color: gray;
+}
+.stage3{
+    border-radius: 5%;
+    margin-left: -10px;
+    height: 50px;
+    width: 135px;
+    background-color: gray;
+}
