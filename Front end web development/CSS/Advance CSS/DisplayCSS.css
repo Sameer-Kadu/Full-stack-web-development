@@ -1,0 +1,18 @@
+.green{
+    background-color: green;
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+.red{
+    background-color: red;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+.blue{
+    background-color: blue;
+    display: inline;
+    height: 200px;
+    width: 200px;
+}
