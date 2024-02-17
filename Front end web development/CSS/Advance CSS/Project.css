@@ -1,0 +1,67 @@
+.beauty {
+    height: 200px;
+    width: 450px;
+    display: inline-block;
+
+}
+
+.construction {
+    height: 200px;
+    width: 450px;
+
+    float: right;
+
+}
+
+img {
+    height: 100px;
+    width: 150px;
+    display: inline;
+    float: left;
+    margin: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+
+}
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media(max-width:915px) {
+    .beauty {
+        display: block;
+    }
+
+    .construction {
+
+        float: left;
+    }
+
+    img {
+        height: 100px;
+        width: 150px;
+        margin: 10px;
+
+    }
+
+    p {
+        margin: 0;
+        clear: both;
+    }
+
+    h2 {
+        margin: 0;
+        clear: both;
+    }
+}
