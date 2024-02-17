@@ -1,0 +1,15 @@
+img{
+    height: 200px;
+
+    float: left;
+}
+div{
+    height: 300px;
+    width: 400px;
+    background-color: orange;
+}
+footer{
+    background-color: green;
+    text-align: center;
+    clear: both;
+}
