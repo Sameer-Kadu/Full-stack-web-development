@@ -1,0 +1,40 @@
+.cont{
+    display: flex;
+    border: solid red;
+    justify-content: space-between;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.orange{
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.indigo{
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+}
+.violet{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+}
