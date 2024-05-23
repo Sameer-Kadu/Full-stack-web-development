@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 320px;
+    width: 320px;
+}
+.white{
+    
+    background-color: wheat;
+    height: 40px;
+    width: 40px;
+} 
+.black{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+}
