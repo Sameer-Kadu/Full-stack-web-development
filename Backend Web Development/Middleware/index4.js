@@ -9,6 +9,7 @@ var bandName = "";
 const app = express();
 const port = 3000;
 app.use(bodyParser.urlencoded({extended: true}));
+
 app.get("/", (req, res) =>{
     res.sendFile(__dirname+"/index.html");
 });
@@ -20,6 +21,7 @@ function band (req, res, next) {
     next();
 }
 app.use(band);
+
 app.post("/submit", (req, res) =>{
     res.send (`<h1>Your band name is:</h1><h2>${bandName}<h2>`);
    
