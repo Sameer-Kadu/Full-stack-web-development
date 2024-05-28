@@ -8,24 +8,19 @@
 </head>
 
 <body>
-
-    <h1>EJS Tags</h1>
-    <p>Current Second: <%= second %>
-    </p>
-    <% if (second % 2===0) {%>
-        <% for(let i=0;i<fruit.length;i++) {%>
-            <ul>
-                <li>
-                    <%= fruit[i] %>
-                </li>
-            </ul>
-            <% } %>
-    <%  }else  {%>
-     
-        <p>No items to display</p>
-          <% } %>
-            <em>this is some en text</em>
-            <%- include("footer.ejs") %>
+    <% if(locals.count) {%>
+        <h1>Length of your name id <%= count %></h1>
+     <% } else { %>
+        <h1>Enter you name</h1>
+      <%}%>    
+    
+    <form action="/submit" method="post">
+    
+    <input type="text" name="fname" placeholder="First name">
+    
+    <input type="text" name="lname" placeholder="Last name">
+    <input type="submit" value="submit">
+</form>
 </body>
 
 </html>

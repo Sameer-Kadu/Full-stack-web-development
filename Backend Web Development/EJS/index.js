@@ -1,21 +1,21 @@
 import express from "express";
+import bodyParser from "body-parser";
+
 
 const app = express();
 const port = 3000;
 
-
-let item = ["apple", "banana", "cherry"];
-
-
-
-
-
-
+app.use(bodyParser.urlencoded({extended: true}));
 app.get("/", (req, res) =>{
-    let time = new Date().getSeconds();
-    res.render("index.ejs", {second: time, fruit: item});
+    
+    res.render("index.ejs");
 });
 
+app.post("/submit", (req, res) =>{
+    const namecount = req.body["fname"].length + req.body["lname"].length;
+    console.log(namecount);
+    res.render("index.ejs", {count : namecount});
+})
 app.listen(port, (req, res) =>{
     console.log(`Server is running on port ${port}`);
 });
