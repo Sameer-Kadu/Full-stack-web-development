@@ -3,21 +3,17 @@ import express from "express";
 const app = express();
 const port = 3000;
 
-const day = new Date();
-const today = day.getDay();
-console.log(today);
 
-let type = "a Weekday";
-let ad = "It's time to work hard";
+let item = ["apple", "banana", "cherry"];
 
-if( today === 0 || today === 6)
-    {
-        type = "a Weekend";
-        ad = "It's time to have some fun";
-    }
+
+
+
+
 
 app.get("/", (req, res) =>{
-    res.render("index.ejs", {dayType: type , advice: ad});
+    let time = new Date().getSeconds();
+    res.render("index.ejs", {second: time, fruit: item});
 });
 
 app.listen(port, (req, res) =>{

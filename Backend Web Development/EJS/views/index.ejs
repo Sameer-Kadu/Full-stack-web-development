@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekday</title>
 </head>
+
 <body>
-    <h1>Hey, it's <%= dayType %>, <%= advice %> </h1>
+
+    <h1>EJS Tags</h1>
+    <p>Current Second: <%= second %>
+    </p>
+    <% if (second % 2===0) {%>
+        <% for(let i=0;i<fruit.length;i++) {%>
+            <ul>
+                <li>
+                    <%= fruit[i] %>
+                </li>
+            </ul>
+            <% } %>
+    <%  }else  {%>
+     
+        <p>No items to display</p>
+          <% } %>
+            <em>this is some en text</em>
+            <%- include("footer.ejs") %>
 </body>
+
 </html>
