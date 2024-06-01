@@ -14,8 +14,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", async (req, res) => {
   try {
     const response = await axios.get("https://bored-api.appbrewery.com/random");
+    //console.log("Response received");
     const result = response.data;
-    console.log(result);
+    //console.log("Result:", result); 
     res.render("index.ejs", { data: result });
   } catch (error) {
     console.error("Failed to make request:", error.message);
@@ -33,7 +34,7 @@ app.post("/", async (req, res) => {
     const participants = req.body.participants;
     const response = await axios.get(`https://bored-api.appbrewery.com/filter?type=${type}&participants=${participants}`);
     const result = response.data;
-    console.log(result);
+   // console.log(result);
     res.render("index.ejs", { data: result[Math.floor(Math.random()*result.length)] });
   } catch (error) {
     console.error("Failed to make request:", error.message);
